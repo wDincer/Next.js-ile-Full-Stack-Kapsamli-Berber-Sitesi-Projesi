@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Home from "./home";
+import Header from "@/components/layout/Header";
 
 
 export default function Index() {
@@ -11,8 +12,8 @@ export default function Index() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-     
-      <Home className="bg-secondary"/>
+      <Header />
+      
     </div>
   );
 }
