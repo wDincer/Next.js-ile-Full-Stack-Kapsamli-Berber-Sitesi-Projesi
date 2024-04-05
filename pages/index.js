@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Home from "./home";
 
+
 export default function Index() {
   return (
     <div>
@@ -11,7 +12,7 @@ export default function Index() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
      
-      <Home />
+      <Home className="bg-secondary"/>
     </div>
   );
 }
